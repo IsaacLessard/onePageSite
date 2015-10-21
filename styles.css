@@ -8,7 +8,49 @@
 	height: 100vh;
 	display: inline-block;
 	font-family: "Futura", Courier, monospace;
+	position: relative;
 	
+}
+
+.btn-high {
+	display: inline-block;
+	position: absolute;
+	top: 45px;
+	right: 45px;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing: 8px;
+}
+
+.btn-low {
+	display: inline-block;
+	position: absolute;
+	top: 375px;
+	right: 45px;
+	text-align: center;
+	vertical-align: middle;
+	letter-spacing: 8px;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: hsl(178, 100%, 44%);
+	text-shadow: 2px 2px #ff0000;
+}
+
+a:visited {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: hsl(178, 100%, 44%);
+	text-shadow: 2px 2px #ff0000;
+}
+
+a:active {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: hsl(178, 100%, 44%);
+	text-shadow: 2px 2px #ff0000;
 }
 
 
@@ -16,13 +58,20 @@
 	background-color: hsla(240, 100%, 50%, .5);
 }
 
+.about img, .future img {
+	width: 500px;
+	height: 500px;
+	display: inline-block;
+	border-radius: 500px;
+	float: left;
+}
+
 .future {
-	background-color: hsla(0, 100%, 50%, .75);
+	background-color: hsla(25, 100%, 50%, .75);
 }
 
 .contact {
-	background-color: hsla(120, 10%, 50%, 1);
-	height: 150vh;
+	background-color: hsla(120, 10%, 50%, .75);
 }
 
 .main {
@@ -37,9 +86,8 @@
 }
 
 .menu {
-	padding-top: 1vh;
+	padding-top: 25vh;
 	text-align: center;
-	color: white;
 
 }
 
@@ -51,6 +99,7 @@
 	letter-spacing: 5px;
 	text-transform: uppercase;
 	border-radius: 5px;
+	padding-right: 60px;
 	
 }
 
@@ -75,19 +124,6 @@
 	text-decoration:none;
 }
 
-.about {
-
-}
-
-
-.wrapper {
-
-}
-
-.blur {
-	opacity: 0.5;
-}
-
 
 /*
 ====================
@@ -107,7 +143,7 @@ input, select, textarea {
 
 textarea {
 	height: 200px;
-	width: 300px;
+	width: 400px;
 }
 
 
@@ -118,11 +154,21 @@ textarea {
 
 }
 
+.formLeft {
+	display: inline-block;
+	position: absolute;
+	left: 15vw;
+	border: 2px solid #c6c9cc;
+	top: 60vh;
+}
 
-
-
-
-
+.formRight {
+	display: inline-block;
+	position: absolute;
+	right: 15vw;
+	border: 2px solid #c6c9cc;
+	top: 60vh;
+}
 
 
 
